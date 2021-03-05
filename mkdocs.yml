@@ -8,3 +8,4 @@ nav:
 - Welcome: index.md
 - Compute: compute.md
 - Global infrastructure: globalinfrastructure.md
+- How to use AWS: use.md
