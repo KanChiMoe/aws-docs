@@ -1,4 +1,4 @@
-site_name: Test
+site_name: The idiots guide on what AWS is
 #site_url: https://docs.chiyo-chan.me
 markdown_extensions:
   - admonition
@@ -9,3 +9,5 @@ nav:
 - Compute: compute.md
 - Global infrastructure: globalinfrastructure.md
 - How to use AWS: use.md
+- Networking: networking.md
+- Storage: storage.md
