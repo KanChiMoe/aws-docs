@@ -1,0 +1,8 @@
+site_name: Test
+#site_url: https://docs.chiyo-chan.me
+markdown_extensions:
+  - admonition
+theme:
+  name: 'readthedocs'
+nav:
+- Welcome: index.md
