@@ -6,3 +6,5 @@ theme:
   name: 'readthedocs'
 nav:
 - Welcome: index.md
+- Compute: compute.md
+- Global infrastructure: globalinfrastructure.md
