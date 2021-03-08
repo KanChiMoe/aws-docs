@@ -1,1 +1,1 @@
-python pip install mkdocs-rtd-dropdown
+pip install mkdocs-rtd-dropdown
