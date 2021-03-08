@@ -1,9 +1,10 @@
 site_name: The idiots guide on what AWS is
-#site_url: https://docs.chiyo-chan.me
+#site_url: ''
 markdown_extensions:
   - admonition
 theme:
-  name: 'readthedocs'
+  name: 'rtd-dropdown'
+  #name: 'readthedocs'
 nav:
 - Welcome: index.md
 - Compute: compute.md
@@ -11,3 +12,6 @@ nav:
 - How to use AWS: use.md
 - Networking: networking.md
 - Storage: storage.md
+#- Databases: databases.md
+#- Security: security.md
+#- Compliance: compliance.md
