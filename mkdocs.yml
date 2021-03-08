@@ -3,8 +3,7 @@ site_name: The idiots guide on what AWS is
 markdown_extensions:
   - admonition
 theme:
-  name: 'rtd-dropdown'
-  #name: 'readthedocs'
+  name: 'readthedocs'
 nav:
 - Welcome: index.md
 - Compute: compute.md
