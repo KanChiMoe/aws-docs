@@ -112,4 +112,4 @@ Like ECS, but for Kubernetes. It's a management tool of sorts where you push to 
 
 # Fargate
 
-Combine ECS/EKS and EC2, but remove the need to manage everything below the container.
+Serverless ECS.
