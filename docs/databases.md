@@ -1,20 +1,18 @@
 
 # RDS
 
-Relational databases. Uses SQL (like MySQL, PostgresSQL, Oracle, Microsoft SQL server).
+Think database + EC2.
+
+Can use SQL (like MySQL, PostgresSQL, Oracle, Microsoft SQL server).
 
 Comes with automatic patching, backups, redundency, failover, and disaster recovery.
 
 # Aurora 
 
-Managed relational databases for MySQL or PostgresSQL.
+Amazon's own type of database. It's **not** MySQL or Postgres, but it quacks like it.
 
 Data is replicated across AZs(?) with 6 copies. 15 read replicas. Continus backups to S3. Point-in-time recovery.
 
-!!! danger "Review this"
-    The above two seem to be the same. My understanding is that RDS is the whole shebang (optomised OS, Database) but Aurora is *just* the database? These two seem mostly the same as I'm not really noticing a difference between them.
-
-    Addationally, the training doesn't cover if these are serverless or not. I assume you do.
 
 # DynamoDB
 
@@ -24,7 +22,7 @@ Also serverless.
 
 # Redshift
 
-Data warehousing/big data.
+Data warehousing/big data. Not serverless.
 
 # Database Migration Service (DMS)
 
@@ -67,7 +65,7 @@ For blockchains.
 
 # ElastiCache
 
-Caching ontop of databases.
+In memory database.
 
 # DAX
 

@@ -12,7 +12,7 @@ nav:
 - Networking: networking.md
 - Storage: storage.md
 - Databases: databases.md
-#- Security: security.md
+- Security: security.md
 #- Compliance: compliance.md
 #- Monitoring: monitoring.md
 #- Pricing: pricing.md
@@ -20,3 +20,4 @@ nav:
 #- Migration: migration.md
 #- Innovate: innovate.md
 #- Well-Architected Framework: framework.md
+
