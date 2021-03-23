@@ -27,7 +27,7 @@ A user
 
 ## IAM policy
 
-Group of permissions in json of what a user can or can't do.
+Group of permissions in json of what a user or role can or can't do.
 
 ## IAM Groups
 
@@ -46,9 +46,6 @@ No username/password, but tempoary access to permissions. Can be used for
 
 When an IAM user gets a role, it loses it's previous permissions and only has the ones of the role.
 
-!!! danger "Review this"
-    The training says "when an identity assumes a role..." but it doesn't actually say what an identity is. I'm assuming an IAM user.
-
 # Organizations
 
 Manage all of the above but over several AWS accounts, billing, etc.
@@ -57,15 +54,9 @@ Manage all of the above but over several AWS accounts, billing, etc.
 
 Think, IAM policies above. Can be attached to OUs or an individual member account.
 
-!!! danger "Review this"
-    What is an "individual member account"? I would assume this to be an IAM user but training says it's not. So..what is it exactly?
-
 ## Organizational units (OU)
 
 Think, IAM groups above.
-
-!!! danger "Review this"
-    Please confirm that my understanding of OUs and SCPs are correct.
 
 # DDOS
 

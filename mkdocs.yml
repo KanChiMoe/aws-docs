@@ -13,7 +13,7 @@ nav:
 - Storage: storage.md
 - Databases: databases.md
 - Security: security.md
-#- Compliance: compliance.md
+- Compliance: compliance.md
 #- Monitoring: monitoring.md
 #- Pricing: pricing.md
 #- Cloud Adoption: caf.md
