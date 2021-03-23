@@ -104,11 +104,11 @@ Like EC2, but you just upload the code and it runs when triggered. Meant for thi
 
 # Elastic Container Service (ECS)
 
-Run container (think, Docker) things. It's a management tool of sorts where you push to this (or EKS) and that pushes to EC2 of Fargate.
+Run container (think, Docker) things. It's a management tool of sorts where you push to this (or EKS) and that pushes to EC2.
 
 # Elastic Kubernetes Service (EKS)
 
-Like ECS, but for Kubernetes. It's a management tool of sorts where you push to this (or ECS) and that pushes to EC2 of Fargate.
+Like ECS, but for Kubernetes. It's a management tool of sorts where you push to this (or ECS) and that pushes to EC2.
 
 # Fargate
 
