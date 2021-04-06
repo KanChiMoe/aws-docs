@@ -17,7 +17,7 @@ nav:
 - Monitoring: monitoring.md
 - Pricing: pricing.md
 - Cloud Adoption: caf.md
-#- Migration: migration.md
+- Migration: migration.md
 #- Innovate: innovate.md
 #- Well-Architected Framework: framework.md
 
