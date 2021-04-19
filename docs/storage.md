@@ -30,7 +30,13 @@ For archive with really infrequent access. Can access things within 12 hours.
 
 # Intelligent-Tiering
 
-Can move things in S3 between different storage tiers based on access patterns. eg: move to IA after 90 days, then glacier after 30.
+Can move things in S3 between different storage tiers based on access patterns.
+
+This is done by AWS and the user can't specify the times.
+
+## Life-cycle policy
+
+Like the above, but the user can define when items should be moved.
 
 # Elastic File System (EFS)
 
