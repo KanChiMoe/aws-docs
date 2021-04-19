@@ -43,17 +43,21 @@ For short term, irregular things that can't be interupted. Run until stopped. Ma
 
 ### Savings plans
 
-Reads like a NordVPN ad on YouTube. Is your usage rather consistant? Why not commit ~~murder~~ for 1 or 3 years and you can save up to 70% on your bill.
+If you're usage is consistant, you can use a savings plan for 1 or 3 years.
 
-### Reserved
+Applies to the entire AWS bill (compute, storage, load balancers, etc).
 
-Also reads like a NordVPN ad? It seems like a combination of On-demand and Savings. It's a discount for On-demand use?
+### Reserved instance
 
-This one doesn't make sense. So you can get `Standard Reserved` and `Convertible Reserved` for 1 or 3 years, and `Scheduled Reserved` for 1 year?
+These are savings plans for compute instances. An old product they can't get rid of yet.
 
-Why? If on-demand is meant to be for short term, why commit for 1 or 3 years?
+For example, you can reserve an EC2 instance with the lowest quality CPU on a _"savings plan"_ which this would make this a `standard reserved instance`.
 
-### Spot
+A `Convertible reserved instance` is like the above, but you can upgrade/downgrade the CPU. Both for 1 or 3 years.
+
+A `Scheduled reserved instance` is also like the above two, but the need comes up on a weekly/daily/monthly schedule. Say a dedicated EC2 instance to do the weekly report on. For a 1 year plan.
+
+### Spot instances
 
 For things with flexible start/end times that are ok with being interrupted. See this is what should be called 'on demand'.
 
